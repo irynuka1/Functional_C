@@ -1,0 +1,141 @@
+{
+  "tests": [
+    [
+      {
+        "id": 0,
+        "name": "Filter",
+        "status": "5",
+        "log": "2 4 6 8 10 \n",
+        "time_normal": 0.000732159,
+        "time_valgrind": 0.830835711,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 1,
+        "name": "Map",
+        "status": "5",
+        "log": "19 21 18 26 22 \n",
+        "time_normal": 0.00073635,
+        "time_valgrind": 0.959454326,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 2,
+        "name": "For Each",
+        "status": "5",
+        "log": "2 3 4 5 6 7 8 9 10 11 \n",
+        "time_normal": 0.000683479,
+        "time_valgrind": 0.926591033,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 3,
+        "name": "Reduce",
+        "status": "5",
+        "log": "55 \n",
+        "time_normal": 0.000615033,
+        "time_valgrind": 0.966023367,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 4,
+        "name": "Map Multi",
+        "status": "10",
+        "log": "Jimmut 19 7.9\nAlinafe 21 9.3\nPhaida 18 8.5\nKatarine 26 10.0\nElen 22 5.7\n",
+        "time_normal": 0.000777976,
+        "time_valgrind": 1.026111287,
+        "timeout": 30000,
+        "test_score": 10
+      },
+      {
+        "id": 5,
+        "name": "For Each Multi",
+        "status": "10",
+        "log": "1 11 21\n2 12 22\n3 13 23\n4 14 24\n5 15 25\n6 16 26\n7 17 27\n8 18 28\n",
+        "time_normal": 0.000644368,
+        "time_valgrind": 0.877982645,
+        "timeout": 30000,
+        "test_score": 10
+      },
+      {
+        "id": 6,
+        "name": "Reduce Multi",
+        "status": "10",
+        "log": "-111 \n",
+        "time_normal": 0.000640735,
+        "time_valgrind": 0.938820253,
+        "timeout": 30000,
+        "test_score": 10
+      },
+      {
+        "id": 7,
+        "name": "Reverse",
+        "status": "7",
+        "log": "10 9 8 7 6 5 4 3 2 1 \n",
+        "time_normal": 0.000700661,
+        "time_valgrind": 0.860329242,
+        "timeout": 30000,
+        "test_score": 7
+      },
+      {
+        "id": 8,
+        "name": "Number Array",
+        "status": "7",
+        "log": "1.0\n2.9\n3.8\n4.7\n5.6\n6.5\n7.4\n8.3\n9.2\n10.1\n",
+        "time_normal": 0.000709879,
+        "time_valgrind": 0.943404439,
+        "timeout": 30000,
+        "test_score": 7
+      },
+      {
+        "id": 9,
+        "name": "Passing Name",
+        "status": "8",
+        "log": "Jimmut Alinafe Phaida Katarine Elen \n",
+        "time_normal": 0.00065205,
+        "time_valgrind": 0.933873096,
+        "timeout": 30000,
+        "test_score": 8
+      },
+      {
+        "id": 10,
+        "name": "Check Sum",
+        "status": "9",
+        "log": "true false false true false \n",
+        "time_normal": 0.000792224,
+        "time_valgrind": 0.844650358,
+        "timeout": 30000,
+        "test_score": 9
+      },
+      {
+        "id": 11,
+        "name": "Even Index",
+        "status": "9",
+        "log": "Jimmut Phaida Elen \n",
+        "time_normal": 0.001255071,
+        "time_valgrind": 0.532156428,
+        "timeout": 30000,
+        "test_score": 9
+      },
+      {
+        "id": 12,
+        "name": "Square Matrix",
+        "status": "0",
+        "log": "",
+        "time_normal": 0.000675866,
+        "time_valgrind": 0.860115035,
+        "timeout": 30000,
+        "test_score": 10
+      }
+    ]
+  ],
+  "test_path": "checker/",
+  "exec_name": [
+    "functional"
+  ],
+  "valgrind_enabled": true
+}
